@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "273661788215",
+    "firebase_url": "https://android-apps-3eb36-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "android-apps-3eb36",
+    "storage_bucket": "android-apps-3eb36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273661788215:android:f516748bbd2b601c69bfb2",
+        "android_client_info": {
+          "package_name": "com.lamaq.housienumberpicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3cjLIfG0xkK4E3FFw-JcLS0e1FDtul4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273661788215:android:6dcc2f6a0e479e0269bfb2",
+        "android_client_info": {
+          "package_name": "com.lamaq.itsscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3cjLIfG0xkK4E3FFw-JcLS0e1FDtul4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273661788215:android:481e329f9eccf4bf69bfb2",
+        "android_client_info": {
+          "package_name": "com.lamaq.itsupdater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3cjLIfG0xkK4E3FFw-JcLS0e1FDtul4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273661788215:android:8fb13f36c9d9c81c69bfb2",
+        "android_client_info": {
+          "package_name": "com.lamaq.midnightwalls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3cjLIfG0xkK4E3FFw-JcLS0e1FDtul4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273661788215-t0r8o6a0t1l2dspk0e4gmdmqudo3fljt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
