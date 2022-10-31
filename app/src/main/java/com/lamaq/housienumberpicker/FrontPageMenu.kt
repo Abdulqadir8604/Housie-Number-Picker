@@ -37,12 +37,15 @@ class FrontPageMenu: AppCompatActivity() {
         multiPhoneBtn?.setTextColor(resources.getColor(R.color.white))
 
         singlePhoneBtn?.setOnClickListener {
+            //pass textToSpeech to BoardActivity
             intent = android.content.Intent(this, BoardActivity::class.java)
             startActivity(intent)
         }
 
         multiPhoneBtn?.setOnClickListener {
-            Toast.makeText(this, "Multi Phone functionality will be added in future updates", Toast.LENGTH_SHORT).show()
+            //pass textToSpeech to AdminMultiPhoneBoardActivity
+            intent = android.content.Intent(this, Lobby::class.java)
+            startActivity(intent)
         }
 
     }

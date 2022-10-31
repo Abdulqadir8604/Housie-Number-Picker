@@ -14,6 +14,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HousieNumberPicker"
         tools:targetApi="33">
+<!--        <activity-->
+<!--            android:name=".MultiPhoneBoardActivity"-->
+<!--            android:exported="false">-->
+<!--            <meta-data-->
+<!--                android:name="android.app.lib_name"-->
+<!--                android:value="" />-->
+<!--        </activity>-->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
         <service
             android:name=".FirebaseMessagingService"
             android:enabled="true"
@@ -22,20 +44,11 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <!-- <activity -->
-        <!-- android:name=".AdminMultiPhoneBoardActivity" -->
-        <!-- android:exported="false"> -->
-        <!-- <meta-data -->
-        <!-- android:name="android.app.lib_name" -->
-        <!-- android:value="" /> -->
-        <!-- </activity> -->
-        <!-- <activity -->
-        <!-- android:name=".MultiPhoneCodeGenActivity" -->
-        <!-- android:exported="false"> -->
-        <!-- <meta-data -->
-        <!-- android:name="android.app.lib_name" -->
-        <!-- android:value="" /> -->
-        <!-- </activity> -->
+
+        <activity android:name="com.lamaq.housienumberpicker.MultiPhoneBoardActivity"/>
+        <activity android:name="com.lamaq.housienumberpicker.AdminMultiPhoneBoardActivity"/>
+        <activity android:name="com.lamaq.housienumberpicker.Lobby"/>
+
         <activity
             android:name=".BoardActivity"
             android:exported="true"
@@ -47,13 +60,8 @@
         <activity
             android:name=".FrontPageMenu"
             android:exported="true"
-            android:screenOrientation="nosensor">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>
